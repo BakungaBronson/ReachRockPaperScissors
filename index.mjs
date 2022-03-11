@@ -24,9 +24,9 @@ const Player = (Who) => ({
 
 await Promise.all([
     ctcAlice.p.Alice({
-        ...Player(Alice),
+        ...Player('Alice'),
     }),
     ctcBob.p.Bob({
-        ...Player(Bob),
+        ...Player('Bob'),
     }),
 ]);
